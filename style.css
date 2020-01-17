@@ -1,0 +1,14 @@
+.container{
+  margin: 0 auto;
+  width: 900px;
+}
+
+.titre {
+  display: flex;
+  justify-content: center;
+}
+
+.vTeam {
+  display: flex;
+  justify-content: space-around;
+}

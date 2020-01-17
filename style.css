@@ -13,6 +13,13 @@ body {
     width: 900px;
 }
 
+@media (max-width: 670) {
+  .container {
+    margin: 0 auto;
+    width: 200px;
+  }
+}
+
 .button {
     display: flex;
     justify-content: center;

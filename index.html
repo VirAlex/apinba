@@ -10,9 +10,23 @@
 <body>
   <div class="container">
     <div class="titre">
+      <h1>Bienvenue dans ma petite App Nba</h1>
+    </div>
+    <div class="titre">
       <h1> Les resultats du jours 🏀</h1>
     </div>
-    <div id="result"></div>
+    <div id="result">
+      <div class="vTeam">
+        <h2 class="vName">${game.vTeam.triCode}</h2>
+        <p>${game.vTeam.score}</p>
+        <h2>VS</h2>
+        <p>${game.hTeam.score}</p>
+        <h2 class="dTeam">${game.hTeam.triCode}</h2>
+      </div>
+      <div class="mark">
+      <h4>${game.nugget.text}</h4>
+      </div>
+    </div>
   </div>
 </div>
 

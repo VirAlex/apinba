@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container{
   margin: 0 auto;
   width: 900px;
@@ -6,9 +11,15 @@
 .titre {
   display: flex;
   justify-content: center;
+  margin-bottom: 25px;
 }
 
 .vTeam {
   display: flex;
   justify-content: space-around;
+}
+
+.mark {
+  display: flex;
+  justify-content: center;
 }

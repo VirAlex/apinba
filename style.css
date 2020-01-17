@@ -26,6 +26,12 @@ body {
     color: #fff;
     font-size: 10px;
 }
+.series p {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
 .container a {
     position: relative;
     width: 90px;
@@ -50,8 +56,9 @@ body {
     width: 300px;
   }
   .titre h1 {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
+    text-align: center;
 }
 
 .titre h2 {
@@ -61,13 +68,20 @@ body {
 .vTeam h2 {
     color: #fff;
     font-size: 30px;
+    margin-left: 15px;
+}
+.series p {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
 }
 .container a {
     position: relative;
     width: 90px;
     height: 75px;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
     display: inline-flex;
     justify-content: center;
@@ -86,21 +100,28 @@ body {
     width: 450px;
   }
   .titre h1 {
-    font-size: 21px;
+    font-size: 35px;
     color: #fff;
 }
 
 .titre h2 {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
 }
 .vTeam h2 {
     color: #fff;
     font-size: 30px;
+    margin-left: 60px;
+}
+.series p {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
 }
 .container a {
     position: relative;
-    width: 90px;
+    width: 144px;
     height: 75px;
     margin: 10px 0;
     font-size: 25px;
@@ -135,6 +156,12 @@ body {
     color: #fff;
     font-size: 30px;
 }
+.series p {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
 .container a {
     position: relative;
     width: 300px;
@@ -154,18 +181,48 @@ body {
 }
 }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1440px) {
 .container {
     margin: 0 auto;
     width: 1200px;
 }
+
 .titre h1 {
+    font-size: 80px;
+    color: #fff;
+}
+
+.titre h2 {
     font-size: 60px;
     color: #fff;
 }
-.titre h2 {
+.vTeam h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 90px;
+}
+.series p {
+  color: red;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
+.container a {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin: 10px 0;
     font-size: 40px;
     color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.button {
+    display: flex;
+    justify-content: center;
 }
 }
 
@@ -201,12 +258,7 @@ body {
 }
 
 
-.series p {
-  color: red;
-  font-size: 20px;
-  text-align: center;
-  font-weight: bolder;
-}
+
 
 
 

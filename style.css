@@ -46,6 +46,7 @@ body {
 
 .vTeam h2 {
     color: #fff;
+    font-size: 30px;
 }
 
 .mark {
@@ -55,13 +56,14 @@ body {
 }
 
 .mark h4 {
-    color: #fff;
+    color: #00ff7f;
+    font-size: 20px;
 }
 
 .score {
     font-weight: bold;
     color: red;
-    font-size: larger;
+    font-size: 60px;
 }
 
 .container a {

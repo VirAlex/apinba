@@ -12,6 +12,7 @@ buttonresult.addEventListener('click', () => {
     const proxy = `https://cors-anywhere.herokuapp.com/`;
     const api = `${proxy}http://data.nba.net/10s/prod/v1/today.json`;
     fetchGameScore();
+  document.querySelector('#butres').innerHTML='';
 })
 
 

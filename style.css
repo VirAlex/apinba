@@ -8,10 +8,42 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 320px) {
   .container {
     margin: 0 auto;
-    width: 400px;
+    width: 300px;
+  }
+  .titre h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.titre h2 {
+    font-size: 5px;
+    color: #fff;
+}
+.container a {
+    position: relative;
+    width: 90px;
+    height: 75px;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.button {
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width: 400px) {
+  .container {
+    margin: 0 auto;
+    width: 450px;
   }
   .titre h1 {
     font-size: 21px;
@@ -27,7 +59,7 @@ body {
     width: 90px;
     height: 75px;
     margin: 10px 0;
-    font-size: 15px;
+    font-size: 25px;
     color: #fff;
     display: inline-flex;
     justify-content: center;
@@ -40,12 +72,12 @@ body {
 }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
 .container {
     margin: 0 auto;
     width: 900px;
 }
-  }
+
 .titre h1 {
     font-size: 70px;
     color: #fff;
@@ -57,10 +89,10 @@ body {
 }
 .container a {
     position: relative;
-    width: 90px;
-    height: 75px;
+    width: 300px;
+    height: 100px;
     margin: 10px 0;
-    font-size: 15px;
+    font-size: 40px;
     color: #fff;
     display: inline-flex;
     justify-content: center;
@@ -74,22 +106,23 @@ body {
 }
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (min-width: 1900px) {
 .container {
     margin: 0 auto;
-    width: 900px;
+    width: 1200px;
 }
-  }
 .titre h1 {
-    font-size: 70px;
+    font-size: 60px;
     color: #fff;
 }
-
 .titre h2 {
     font-size: 40px;
     color: #fff;
 }
-.container a {
+}
+
+
+/* .container a {
     position: relative;
     width: 90px;
     height: 75px;
@@ -101,12 +134,12 @@ body {
     align-items: center;
     text-decoration: none;
     transition: 0.5s;
-}
-.button {
+} */
+/* .button {
     display: flex;
     justify-content: center;
-}
-}
+} */
+
 
 #result {
     margin-top: 140px !important;
@@ -157,7 +190,7 @@ body {
     font-size: 60px;
 }
 
-.container a {
+/* .container a {
     position: relative;
     width: 300px;
     height: 75px;
@@ -169,7 +202,7 @@ body {
     align-items: center;
     text-decoration: none;
     transition: 0.5s;
-}
+} */
 
 .container a:hover {
     color: #fff

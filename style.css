@@ -8,21 +8,104 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width: 400px) {
+  .container {
+    margin: 0 auto;
+    width: 400px;
+  }
+  .titre h1 {
+    font-size: 21px;
+    color: #fff;
+}
+
+.titre h2 {
+    font-size: 20px;
+    color: #fff;
+}
+.container a {
+    position: relative;
+    width: 90px;
+    height: 75px;
+    margin: 10px 0;
+    font-size: 15px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.button {
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 1024px) {
 .container {
     margin: 0 auto;
     width: 900px;
 }
-
-@media (max-width: 670) {
-  .container {
-    margin: 0 auto;
-    width: 200px;
   }
+.titre h1 {
+    font-size: 70px;
+    color: #fff;
 }
 
+.titre h2 {
+    font-size: 40px;
+    color: #fff;
+}
+.container a {
+    position: relative;
+    width: 90px;
+    height: 75px;
+    margin: 10px 0;
+    font-size: 15px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
 .button {
     display: flex;
     justify-content: center;
+}
+}
+
+@media screen and (max-width: 1900px) {
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+  }
+.titre h1 {
+    font-size: 70px;
+    color: #fff;
+}
+
+.titre h2 {
+    font-size: 40px;
+    color: #fff;
+}
+.container a {
+    position: relative;
+    width: 90px;
+    height: 75px;
+    margin: 10px 0;
+    font-size: 15px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
 }
 
 #result {
@@ -36,10 +119,7 @@ body {
     background-color: none;
 }
 
-.titre h1 {
-    font-size: 50px;
-    color: #fff;
-}
+
 .series p {
   color: red;
   font-size: 20px;
@@ -47,10 +127,7 @@ body {
   font-weight: bolder;
 }
 
-.titre h2 {
-    font-size: 40px;
-    color: #fff;
-}
+
 
 .vTeam {
     display: flex;

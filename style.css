@@ -8,19 +8,59 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 100px) {
   .container {
     margin: 0 auto;
     width: 300px;
   }
   .titre h1 {
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
 }
 
 .titre h2 {
     font-size: 5px;
     color: #fff;
+}
+.vTeam h2 {
+    color: #fff;
+    font-size: 10px;
+}
+.container a {
+    position: relative;
+    width: 90px;
+    height: 75px;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.button {
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .titre h1 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.titre h2 {
+    font-size: 25px;
+    color: #fff;
+}
+.vTeam h2 {
+    color: #fff;
+    font-size: 30px;
 }
 .container a {
     position: relative;
@@ -54,6 +94,10 @@ body {
     font-size: 20px;
     color: #fff;
 }
+.vTeam h2 {
+    color: #fff;
+    font-size: 30px;
+}
 .container a {
     position: relative;
     width: 90px;
@@ -86,6 +130,10 @@ body {
 .titre h2 {
     font-size: 40px;
     color: #fff;
+}
+.vTeam h2 {
+    color: #fff;
+    font-size: 30px;
 }
 .container a {
     position: relative;
@@ -168,10 +216,7 @@ body {
     margin-bottom: 15px;
 }
 
-.vTeam h2 {
-    color: #fff;
-    font-size: 30px;
-}
+
 
 .mark {
     display: flex;

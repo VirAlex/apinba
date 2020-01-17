@@ -1,30 +1,99 @@
+body {
+  background-image: url('https://i.redd.it/m6up7z4yphh31.jpg');
+}
+
 * {
   margin: 0;
   padding: 0;
 }
-
 .container{
   margin: 0 auto;
   width: 900px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.result {
+  margin-top: 25px !important;
 }
 
 .titre {
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
+  background-color: none;
+}
+.titre h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.titre h2 {
+  font-size: 40px;
 }
 
 .vTeam {
   display: flex;
   justify-content: space-around;
 }
+.vTeam h2 {
+  color: #fff;
+}
 
 .mark {
   display: flex;
   justify-content: center;
 }
+.mark h4 {
+  color: #fff;
+}
 
 .score {
   font-weight: bold;
-  color: brown;
+  color: #fff;
+}
+
+
+.container a {
+  position: relative;
+  width: 300px;
+  height: 75px;
+  margin: 10px 0;
+  font-size: 24px;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.container a:hover {
+  color:#fff
+}
+.container a:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: url(./images/btn-bg1.png);
+  background-size: cover;
+  transform-origin: left;
+  transition: 0.5s;
+}
+.container a:nth-child(2):before{
+  background: url(./images/btn-bg2.png);
+  background-size: cover;
+}
+
+.container a:hover:before{
+  width: 100%;
+}
+
+.container a span {
+  position: relative;
+  z-index: 1;
 }

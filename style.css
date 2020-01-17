@@ -33,9 +33,16 @@ body {
     font-size: 50px;
     color: #fff;
 }
+.series p {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
 
 .titre h2 {
     font-size: 40px;
+    color: #fff;
 }
 
 .vTeam {

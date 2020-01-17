@@ -23,3 +23,8 @@
   display: flex;
   justify-content: center;
 }
+
+.score {
+  font-weight: bold;
+  color: brown;
+}

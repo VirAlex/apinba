@@ -1,18 +1,19 @@
 let buttonresult = document.querySelector("#buttonresult")
+let buttonother = document.querySelector('#buttonother')
 buttonresult.addEventListener('click', () => {
-
-
     console.log("Hello");
     let vTeam = document.querySelector('.vTeam');
     let dTeam = document.querySelector('.dTeam');
-
-
-
-
     const proxy = `https://cors-anywhere.herokuapp.com/`;
     const api = `${proxy}http://data.nba.net/10s/prod/v1/today.json`;
     fetchGameScore();
   document.querySelector('#butres').innerHTML='';
+})
+
+buttonother.addEventListener('click', () => {
+  document.querySelector('#result').innerHTML = '';
+  document.querySelector('#butres').innerHTML = '<a href="#" id="buttonresult"><span>Resultats</span></a>'
+
 })
 
 

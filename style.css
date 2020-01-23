@@ -81,7 +81,7 @@ body {
     }
     .vTeam h2 {
         color: #fff;
-        font-size: 30px;
+        font-size: 25px;
         margin-left: 15px;
     }
     .series p {
@@ -115,6 +115,11 @@ body {
         font-size: 20px;
         margin-right: 5px;
     }
+    .score {
+        font-weight: bold;
+        color: red;
+        font-size: 25px;
+    }
 }
 
 @media screen and (min-width: 400px) {
@@ -124,7 +129,7 @@ body {
     }
     .container {
         margin: 0 auto;
-        width: 420px;
+        width: 410px;
     }
     .titre h1 {
         font-size: 35px;
@@ -136,8 +141,8 @@ body {
     }
     .vTeam h2 {
         color: #fff;
-        font-size: 30px;
-        margin-left: 60px;
+        font-size: 25px;
+        margin-left: 15px;
     }
     .series p {
         color: red;
@@ -162,6 +167,21 @@ body {
         display: flex;
         justify-content: center;
     }
+    .score {
+        font-weight: bold;
+        color: red;
+        font-size: 25px;
+    }
+    .score {
+        font-weight: bold;
+        color: red;
+        font-size: 27px;
+        margin-left: 15px;
+    }
+    span {
+        font-size: 30px;
+        margin-right: 0px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -179,7 +199,7 @@ body {
     }
     .vTeam h2 {
         color: #fff;
-        font-size: 30px;
+        font-size: 45px;
     }
     .series p {
         color: red;
@@ -204,12 +224,27 @@ body {
         display: flex;
         justify-content: center;
     }
+    .score {
+        font-weight: bold;
+        color: red;
+        font-size: 45px;
+        margin-left: 15px;
+    }
+    .mark h4 {
+        color: #00ff7f;
+        font-size: 25px;
+        text-align: center;
+    }
+    span {
+        font-size: 40px;
+        margin-right: 5px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     .container {
         margin: 0 auto;
-        width: 1200px;
+        width: 1400px;
     }
     .titre h1 {
         font-size: 80px;
@@ -246,6 +281,21 @@ body {
     .button {
         display: flex;
         justify-content: center;
+    }
+    .score {
+        font-weight: bold;
+        color: red;
+        font-size: 55px;
+        margin-left: 15px;
+    }
+    .mark h4 {
+        color: #00ff7f;
+        font-size: 35px;
+        text-align: center;
+    }
+    span {
+        font-size: 45px;
+        margin-right: 5px;
     }
 }
 
